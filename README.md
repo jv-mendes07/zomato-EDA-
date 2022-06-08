@@ -157,3 +157,17 @@ Tal resposta concluída, nos permite tratar sobre os serviços e às avaliaçõe
 Diretamente, podemos plotar um gráfico de pizza para expressar a porcentagem de restaurantes que fornecem ou não fornecem tais serviços de entrega, take-away, comida vegana e jantar interno:
 
 ![](./img/b7.png)
+
+Percentualmente, como era esperado uma altíssima porcentagem de 99.8 % dos restaurantes fornecem serviços de entrega, ou seja, quase todos restaurantes de Bangalore fornecem serviços de delivery ao cliente. 
+
+O take-away é um serviço fornecido em que o cliente poderá pagar a comida antes de consumi-la e poderá levá-la para come-la em outro local de sua preferência. 
+
+Uma porcentagem de 66% dos restaurantes em Bangalore fornecem o serviço de take-away, em contraste 34% dos restaurantes não fornecem tal serviço, ou seja, uma razoável parcela de restaurantes em Bangalore, o cliente ao pagar terá que consumir presentemente no local do restaurante.
+
+Uma altíssima porcentagem de aproximadamente 93% dos restaurantes em Bangalore fornecem aos clientes um cardápio com opções de comidas veganas, enquanto uma pequena parcela de 7% não disponibiliza tal tipo de opção alimentícia.
+
+Por fim, 55% dos restaurantes em Bangalore fornecem a possibilidade de jantar interno, ou seja, tal serviço disponibiliza um ambiente preparatório no restaurante para que o cliente possa jantar no local do restaurante em uma ambietação mais confortável, enquanto 44% dos restaurantes não disponibilizam tal serviço.
+
+Para continuarmos à tratar sobre tais serviços, podemos fazer à seguinte pergunta estatística:
+
+#### **(6)** 
