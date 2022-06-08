@@ -150,4 +150,10 @@ Um dos pratos mais populares nos restaurantes de Bangalore são Cheesecake e Bir
 
 Vada, Frango Biryani e Gulab Jamun são um dos pratos bem populares na cidade de Bangalore, o Gulab Jamun é um doce típico da região feito à partir de leite em pó, e Vada é um tipo de petisco salgado consumível na Índia.
 
+Tal resposta concluída, nos permite tratar sobre os serviços e às avaliações de tais serviços que são fornecidos pelos restaurantes de Bangalore, primeiramente podemos inicializar por tal questão:
 
+#### **(5)** Qual é a porcentagem de restaurantes em Bangalore que fornecem ou não fornecem os serviços de entrega, take away, comida vegana e jantar interno?
+
+Diretamente, podemos plotar um gráfico de pizza para expressar a porcentagem de restaurantes que fornecem ou não fornecem tais serviços de entrega, take-away, comida vegana e jantar interno:
+
+![](./img/b7.png)
