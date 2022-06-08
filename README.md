@@ -24,5 +24,28 @@ import seaborn as sns
 
 O dataset [Zomato Bangalore Restaurants](https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants) utilizado em tal análise exploratória está hospedado disponivelmente no Kaggle para uso gratuito.
 
+## Importação do dataset
 
+```
+df_restaurantes = pd.read_csv('/content/drive/MyDrive/BangaloreZomatoData.csv')
+```
+
+Após importarmos a base de dados, verificamos a quantidade de linhas e colunas contidas em tal dataset pelo atributo .shape, e assim descobrimos que há 
+8 mil e 923 linhas, e 19 colunas disponíveis para a exploração analítica.
+
+## Colunas do dataset
+
+Abaixo são os nomes das colunas que serão analisadas:
+
+```
+'name', 'url', 'tipo_de_comida', 'area', 'tempo', 'endereco_completo',
+       'numero_tel', 'servico_de_entrega', 'take_away', 'jantar_interno',
+       'comida_vegana', 'avaliacao_jantar', 'qtd_avaliacoes_jantar',
+       'avaliacao_entrega', 'qtd_avaliacoes_entrega', 'conhecido_por',
+       'pratos_populares', 'pessoas_conhecem_por', 'custo_medio'
+``` 
+
+## Processo de exploração dos dados
+
+### **(1)** Tratamento dos dados
 
