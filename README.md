@@ -63,4 +63,38 @@ Abaixo são os nomes das colunas que serão analisadas:
 
 À partir desta fase, começamos à explorar em detalhes o conjunto de dados relativo aos restaurantes registrados na cidade de Bangalore pelo aplicativo Zomato, e primeiramente antes de inicializarmos com perguntas mais complexas sobre tal dataset, poderemos nos perguntar **(a)** quantos restaurantes e bairros estão dispersamente localizáveis na cidade de Bangalore? 
 
-Para 
+Para respondermos tal questão, utilizamos o método .nunique() para sabermos a quantidade de valores únicos em relação aos bairros e restaurantes, e disto descobrimos que há aproximadamente 5 mil e 242 restaurantes localizados na cidade de Bangalore e 169 bairros pela cidade em que tais restaurantes estão dispersos.
+
+Tal questão simples nos fornece uma impressão inicial da vastidão de restaurantes que estão espaçados pela cidade indiana, e com tal informação fornecida podemos iniciar uma análise que seja centralizada nos costumes alimentícios dos indianos com base nos restaurantes que os habitantes frequentam:
+
+#### **(1)** Quais são os tipos de comida mais populares na cidade de Bangalore na Índia?
+
+A resposta desta questão foi obtida por um agrupamento de pratos populares dos restaurantes, e uma contabilização do quão frequente esses pratos populares são nos restaurantes da região, com tal resposto fornecida fizemos uma tabela que explicita os 10 pratos mais populares da cidade de Bangalore na Índia:
+
+| tipos_de_comida | qtd  |
+|-----------------|------|
+|                 |      |
+| North Indian    | 3249 |
+| Beverages       | 2829 |
+| Chinese         | 2765 |
+| Desserts        | 2320 |
+| Fast Food       | 2173 |
+| Biryani         | 1987 |
+| South Indian    | 1644 |
+| Street Food     | 1089 |
+| Shake           | 927  |
+| Mughlai         | 826  |
+|                 |      |
+
+Para termos uma expressão mais visual e entendível de tal informação, podemos plotar um gráfico de pizza para representar a proporção do quão cada prato é popular nos restaurantes indianos:
+
+![](./img/b2.png)
+
+Em suma, as culinárias norte-indianas e chinesas são os tipos de comida mais populares nos restaurantes de Bangalore na Índia, juntamente às comidas de rua, o fast-food, Biryani e às comidas sul-indianas são tipos de comida também populares nos restaurantes da cidade metropolitana da Índia.
+
+Após tal exposição informacional, sabemos especulativamente quais são algumas das comidas mais populares e consumíveis na cidade indiana (bom, ao menos pelo que indica os dados dos restaurantes).
+
+Como vimos anteriormente, há 169 bairros na cidade indiana com aproximadamente 5 mil restaurantes localmente dispersos entre os bairros da região, à partir desse dado simples, podemos nos perguntar:
+
+#### **(2)** Quais são os bairros de Bangalore em que há mais restaurantes localizáveis?
+
