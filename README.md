@@ -69,7 +69,7 @@ Tal questão simples nos fornece uma impressão inicial da vastidão de restaura
 
 #### **(1)** Quais são os tipos de comida mais populares na cidade de Bangalore na Índia?
 
-A resposta desta questão foi obtida por um agrupamento de pratos populares dos restaurantes, e uma contabilização do quão frequente esses pratos populares são nos restaurantes da região, com tal resposto fornecida fizemos uma tabela que explicita os 10 pratos mais populares da cidade de Bangalore na Índia:
+A resposta desta questão foi obtida por um agrupamento de tipos de comida dos restaurantes, e uma contabilização do quão frequente esses tipos de comida são nos restaurantes da região, com tal resposta fornecida fizemos uma tabela que explicita os 10 pratos mais populares da cidade de Bangalore na Índia:
 
 | tipos_de_comida | qtd  |
 |-----------------|------|
@@ -86,7 +86,7 @@ A resposta desta questão foi obtida por um agrupamento de pratos populares dos 
 | Mughlai         | 826  |
 |                 |      |
 
-Para termos uma expressão mais visual e entendível de tal informação, podemos plotar um gráfico de pizza para representar a proporção do quão cada prato é popular nos restaurantes indianos:
+Para termos uma expressão mais visual e entendível de tal informação, podemos plotar um gráfico de pizza para representar a proporção do quão cada tipo de comida é popular nos restaurantes indianos:
 
 ![](./img/b2.png)
 
@@ -138,3 +138,10 @@ Após realizarmos uma filtragem de dados somente em relação aos bairros que co
 
 Sumamente, em média há 23 restaurantes por bairro na cidade de Bangalore na Índia. Anteriormente, à média com os dados outliers presentes distorceram a informação da média aritmética para 52, isto é, como se em média a cidade de Bangalore tivesse aproximamente 52 restaurantes por bairro. 
 
+Após tal pergunta respondida, poderemos continuar a explorar informações atinentes ao que os habitantes de Bangalore tendem à consumir frequentemente nos restaurantes da região:
+
+#### **(4)** Quais são os pratos mais populares nos restaurantes de Bangalore?
+
+Basicamente, realizamos processos semelhantes para responder às questões anteriores, e após obtermos os 10 pratos mais populares nos restaurantes de Bangalore, plotamos um gráfico de colunas para representar visualmente em ordem decrescente os pratos mais populares da região (com base nas informações fornecidas pelos restaurantes regionais):
+
+![](./img/b5.png)
