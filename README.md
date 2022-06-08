@@ -98,3 +98,43 @@ Como vimos anteriormente, há 169 bairros na cidade indiana com aproximadamente 
 
 #### **(2)** Quais são os bairros de Bangalore em que há mais restaurantes localizáveis?
 
+O processo para responder tal questão foi congênere ao processo aplicável na questão anterior, agrupamos os bairros únicos da cidade indiana e contabilizamos a quantidade de restaurantes localizadas em cada bairro, assim obtivemos uma tabela e a organizamos com os 10 bairros com mais restaurantes localizados em Bangalore:
+
+| index | area                       | qtd_restaurantes |
+|-------|----------------------------|------------------|
+| 0     | Electronic City, Bangalore | 674              |
+| 1     | Marathahalli, Bangalore    | 484              |
+| 2     | HSR, Bangalore             | 457              |
+| 3     | Whitefield, Bangalore      | 447              |
+| 4     | BTM, Bangalore             | 397              |
+| 5     | Indiranagar, Bangalore     | 292              |
+| 6     | JP Nagar, Bangalore        | 292              |
+| 7     | Sarjapur Road, Bangalore   | 284              |
+| 8     | Rajajinagar, Bangalore     | 237              |
+| 9     | New BEL Road, Bangalore    | 232              |
+|       |                            |                  |
+
+Novamente, para termos uma expressabilidade mais compreensível, plotamos um gráfico de barras horizontais para representar em ordem decrescente os 10 bairros com mais restaurantes presentes comercialmente:
+
+![](./img/b3.png)
+
+Os bairros com mais restaurantes concentrados são destacavelmente Electronic City, Marathahalli e HSR, em Electronic City, por exemplo, há mais de 600 restaurantes no bairro, enquanto em Marathahalli e HSR há uma concentração de restaurantes abaixo de 600. 
+
+Para continuar nesta questão em relação à quantidade de restaurantes por bairro na cidade indiana de Bangalore, podemos responder uma questão estatística em relação à tal tópico:
+
+#### **(3)** Qual é a média de restaurantes por bairro na cidade de Bangalore?
+
+Rapidamente, com o método .mean() obtivemos a informação de que há em média 52 restaurantes por bairro na cidade indiana, e para termos uma representação de tal informação estatística, plotamos um gráfico de caixa para expressar tal distribuição quantitativa de restaurantes por bairro:
+
+![](./img/b4.png)
+
+Observacionalmente é constatável que há dados atípicos (outliers), ou seja, há bairros com uma quantidade de restaurantes concentravelmente exagerados.
+
+O problema de ter outliers em um conjunto de dados é que a média aritmética é informacionalmente distorcida por tais dados atípicos.
+
+Para evitar tal problema, iremos filtrar os bairros que estão com uma quantidade de restaurantes que não são outliers, e assim iremos obter uma média aritmética que informe corretamente qual é a média de restaurantes por bairro na cidade de Bangalore.
+
+Após realizarmos uma filtragem de dados somente em relação aos bairros que contêm uma quantidade de restaurantes padronizada, aplicamos novamente o método .mean() e obtivemos 23, ou seja, obtivemos uma média aritmética totalmente diferente do que foi dado anteriormente com à distorção resultante dos outliers presentes.
+
+Sumamente, em média há 23 restaurantes por bairro na cidade de Bangalore na Índia. Anteriormente, à média com os dados outliers presentes distorceram a informação da média aritmética para 52, isto é, como se em média a cidade de Bangalore tivesse aproximamente 52 restaurantes por bairro. 
+
