@@ -144,4 +144,10 @@ Após tal pergunta respondida, poderemos continuar a explorar informações atin
 
 Basicamente, realizamos processos semelhantes para responder às questões anteriores, e após obtermos os 10 pratos mais populares nos restaurantes de Bangalore, plotamos um gráfico de colunas para representar visualmente em ordem decrescente os pratos mais populares da região (com base nas informações fornecidas pelos restaurantes regionais):
 
-![](./img/b5.png)
+![](./img/b6.png)
+
+Um dos pratos mais populares nos restaurantes de Bangalore são Cheesecake e Biryani, Cheesecake é um tipo de torta doce de queijo cremoso acrescentado com frutas vermelhas, já Biryani é um tipo de arroz típico da Índia que é altamente popular no país. 
+
+Vada, Frango Biryani e Gulab Jamun são um dos pratos bem populares na cidade de Bangalore, o Gulab Jamun é um doce típico da região feito à partir de leite em pó, e Vada é um tipo de petisco salgado consumível na Índia.
+
+
