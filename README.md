@@ -170,4 +170,8 @@ Por fim, 55% dos restaurantes em Bangalore fornecem a possibilidade de jantar in
 
 Para continuarmos à tratar sobre tais serviços, podemos fazer à seguinte pergunta estatística:
 
-#### **(6)** 
+#### **(6)** Quais são às avaliações em média aos serviços de entrega e de jantar interno aos restaurantes da cidade de Bangalore?
+
+Antes de respondermos diretamente tal pergunta, podemos plotar em junção um gráfico de caixa e de violino para representar visualmente a distribuição das avaliações aos serviços de entrega e de jantar interno registrados nos restaurantes da cidade indiana:
+
+![](./img/b8.png)
