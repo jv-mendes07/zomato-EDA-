@@ -234,3 +234,55 @@ O restaurante Brahmin's Coffee Bar serve idli, vada e outros petiscos indiano no
 
 CTR Shri Sagar semelhantemente ao Brahmin's Coffee Bar é um restaurante que fornece acompanhamento com café, e serve atipicamente pratos como bajji, que é um bolinho originário da Índia que é feito à partir de vegetais quentes picantes, e geralmente cebola, com determinadas variantes.
 
+Como obtivemos a informação de quais são os estabelecimentos com às melhores avaliações em serviços de entrega ou de jantar interno, poderemos complementar tal informação com uma pergunta adicional:
+
+#### **(8)** Os restaurantes mais bem avaliados pontuadamente nos serviços de entrega e de jantar interno são conhecidos por quais qualificações profissionais em Bangalore na Índia?
+
+Basicamente, filtramos os dados que correspondem à tais estabelecimentos e obtivemos pela coluna conhecido_por às avaliações populares e mais comuns dos clientes à tais restaurantes.
+
+| index | name                 | conhecido_por                                                     |   |
+|-------|----------------------|-------------------------------------------------------------------|---|
+| 101   | Milano Ice Cream     | Varieties of Gelato Ice Creams.                                   |   |
+| 30    | Chianti              | wide variety of wine and authentic Italian Cuisine                |   |
+| 162   | Windmills Craftworks | Ambience And Live Performances in Jazz Theatre                    |   |
+| 23    | CTR Shri Sagar       | being one of the oldest South Indian breakfast place in Bangalore |   |
+|       |                      |                                                                   |   |
+
+Os restaurantes mais bem avaliados no serviço de jantar interno, tal como Milano Ice Cream, Chianti, Windmills Craftworks e CTR Shri Sagar são conhecidos por tais qualidades comerciais:
+
+Milano Ice Cream que oferece um bom serviço de jantar interno no local é conhecido por ter uma variedade ampla de sorvetes.
+
+Chianti é um restaurante conhecido por ter uma vasta variedade de vinhos e por ter uma autêntica cozinha italiana.
+
+Windmills Craftworks é conhecido popularmente por ter um ambiente de perfomances de Jazz ao vivo.
+
+Por fim, CTR Shri Sagar é conhecido por ser um dos restaurantes mais antigos que fornecem um café da manhã sul-indiano em Bangalore na Índia.
+
+A tendência é que restaurantes com um ambiente agradavelmente confortável sejam restaurantes com uma boa avaliação de serviço de jantar interno.
+
+Já que respondemos tais questões relacionadas ao julgamento dos clientes em relação aos restaurantes comerciais de Bangalore, então poderemos acrescentar mais questões que enfoquem neste ponto:
+
+#### **(9)** Os restaurantes de Bangalore são conhecidos adjetivamente por quais características pelos clientes?
+
+A resposta de tal questão é exposta abaixo, com um gráfico de barras horizontais para explicitar às qualidades popularmente atribuídas aos estabelecimentos da cidade indiana:
+
+![](./img/b9.png)
+
+Os restaurantes de Bangalore são conhecidos por venderem comidas em uma porção satisfatória, por terem comida fresca e de boa qualidade, e principalmente por terem um cardápio extensivo com várias opções de aperitivos. 
+
+Os restaurantes são conhecidos também por oferecerem um serviço de entrega sem-contato entre o entregador e o cliente, e por terem uma comida vendida por um preço razoável aos clientes.
+
+Após obtermos tal resposta, podemos nos perguntar:
+
+#### **(10)** Quais são os restaurantes mais populares em Bangalore?
+
+Simplesmente, agrupamos o nome dos restaurantes e fizemos uma contagem quantitativa de quantos restaurantes com tal marca ou nome estão presentes dispersamente nos bairros de Bangalore, obtivemos este resultado abaixo:
+
+![](./img/b10.png)
+
+Restaurantes como Five Star Chicken, Snack House e McDonald's e Subway (essas últimas como às mais populares mundialmente) são um dos restaurantes mais populares em Bangalore, isto é, são os restaurantes com maior presença quantitativa nos bairros de Bangalore.
+
+Por fim, para terminamos tal análise exploratória podemos explorar dados em relação ao preço comumente gasto para alimentar-se nos restaurantes de Bangalore:
+
+#### **(11)** Qual é o custo médio dos restaurantes de Bangalore? E quais são os restaurantes mais caros e mais baratos da cidade com base no custo médio?
+
