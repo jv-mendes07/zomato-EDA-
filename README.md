@@ -266,7 +266,7 @@ Já que respondemos tais questões relacionadas ao julgamento dos clientes em re
 
 A resposta de tal questão é exposta abaixo, com um gráfico de barras horizontais para explicitar às qualidades popularmente atribuídas aos estabelecimentos da cidade indiana:
 
-![](./img/b9.png)
+![](./img/b14.png)
 
 Os restaurantes de Bangalore são conhecidos por venderem comidas em uma porção satisfatória, por terem comida fresca e de boa qualidade, e principalmente por terem um cardápio extensivo com várias opções de aperitivos. 
 
@@ -278,7 +278,7 @@ Após obtermos tal resposta, podemos nos perguntar:
 
 Simplesmente, agrupamos o nome dos restaurantes e fizemos uma contagem quantitativa de quantos restaurantes com tal marca ou nome estão presentes dispersamente nos bairros de Bangalore, obtivemos este resultado abaixo:
 
-![](./img/b10.png)
+![](./img/b15.png)
 
 Restaurantes como Five Star Chicken, Snack House e McDonald's e Subway (essas últimas como às mais populares mundialmente) são um dos restaurantes mais populares em Bangalore, isto é, são os restaurantes com maior presença quantitativa nos bairros de Bangalore.
 
