@@ -175,3 +175,62 @@ Para continuarmos à tratar sobre tais serviços, podemos fazer à seguinte perg
 Antes de respondermos diretamente tal pergunta, podemos plotar em junção um gráfico de caixa e de violino para representar visualmente a distribuição das avaliações aos serviços de entrega e de jantar interno registrados nos restaurantes da cidade indiana:
 
 ![](./img/b8.png)
+
+Resumidamente, com base nos dois gráficos acima e em informações estatísticas exploradas pelo método .describe(), obtivemos que em média os restaurantes de Bangalore recebem uma avaliação de serviço de entrega aproximadamente de 3.9 e os serviços de jantar interno uma avaliação de 3.6.
+
+A pior avaliação do serviço de entrega foi de 2.4 e do serviço de jantar interno foi de 2.0, enquanto contrastamente os serviços de entrega e de jantar interno mais bem avaliados receberam uma pontuação de 4.7 e 4.9.
+
+* Desvio-padrão:
+
+ A avaliação dos serviços de entrega dos restaurantes apresentam uma dispersão de 0.32 pontos em relação à média de 3.9 e a avaliação dos serviços de jantar interno apresentam uma dispersão de 0.47 pontos em relação à média de 3.6.
+ 
+* Quartis:
+
+ 25% dos restaurantes em Bangalore recebem uma avaliação abaixo de 3.7 e de 3.3 pontos aos serviços de entrega e de jantar interno, 50% dos restaurantes recebem uma avaliação abaixo de 3.9 e de 3.7, e 75% dos restaurantes recebem uma avaliação abaixo de 4.1 e de 4.0 pontos aos serviços de entrega e de jantar interno.
+ 
+Para continuarmos neste tópico, podemos trazer uma questão adicional:
+
+#### **(7)** Quais são os restaurantes que tiveram alta pontuação nas avaliações dos serviços de entrega e de jantar interno?
+
+Iremos responder tal questão por duas tabelas que informem quais foram os estabelecimentos que receberam às avaliações mais altas aos serviços de entrega e de jantar interno separadamente:
+
+| index | name                                                | avaliacao_entrega |
+|-------|-----------------------------------------------------|-------------------|
+| 0     | Apsara Ice Creams                                   | 4.7               |
+| 1     | Omm Nom Nomm                                        | 4.7               |
+| 2     | ibaco                                               | 4.6               |
+| 3     | Natural Ice Cream                                   | 4.6               |
+| 4     | Arun Icecreams                                      | 4.6               |
+| 5     | Apsara Ice Creams                                   | 4.6               |
+| 6     | Kwality Wall’s Frozen Dessert and Ice Cream Shop    | 4.6               |
+| 7     | The Betel Leaf Co - Paan The Healthy Indian Dessert | 4.6               |
+| 8     | Elixir-Luxury Pearls Drink                          | 4.6               |
+| 9     | Juice Junction                                      | 4.6               |
+|       |                                                     |                   |
+
+Os estabelecimentos no topo da lista são os estabelecimentos que receberam às mais altas avaliações no serviço de entrega, tal como Apsara Ice Creams, Omm Nom Nomm e NIC (Natural Ice Cream) que são estabelecimentos comumente relacionados à vendas de sorvete que receberam uma avaliação de 4.7 de pontuação aos serviços de entrega que são feitos sem contato com cliente. 
+
+Ou seja, os estabelecimentos com melhores serviços de entrega em Bangalore na Índia são aqueles relacionados à venda de sorvete.
+
+Abaixo, há uma tabela que informa os 10 estabelecimentos mais bem avaliados no fornecimento de jantar interno na cidade de Bangalore:
+
+| index | name                 | avaliacao_jantar |
+|-------|----------------------|------------------|
+| 0     | Brahmin's Coffee Bar | 4.9              |
+| 1     | Windmills Craftworks | 4.9              |
+| 2     | Milano Ice Cream     | 4.9              |
+| 3     | CTR Shri Sagar       | 4.9              |
+| 4     | Burma Burma          | 4.9              |
+| 5     | Chianti              | 4.8              |
+| 6     | Arogya Ahaara        | 4.8              |
+| 7     | Brik Oven            | 4.8              |
+| 8     | Bologna              | 4.8              |
+| 9     | Natural Ice Cream    | 4.8              |
+|       |                      |                  |
+
+Os restaurantes mais bem avaliados em pontuação no serviço de jantar interno tiveram uma avaliação em derredor de 4.8 e 4.9, tais restaurantes que receberam tal avaliação máxima foram Brahmin's Coffee Bar, Milano Ice Cream, Windmills Craftworks, Burma Burma e CTR Shri Sagar.
+
+O restaurante Brahmin's Coffee Bar serve idli, vada e outros petiscos indiano no café da manhã, idli é uma típica comida da região, que é um bolo de arroz salgado consumível popularmente nos cafés da manhã na Índia.
+
+CTR Shri Sagar semelhantemente ao Brahmin's Coffee Bar é um restaurante que fornece acompanhamento com café, e serve atipicamente pratos como bajji, que é um bolinho originário da Índia que é feito à partir de vegetais quentes picantes, e geralmente cebola, com determinadas variantes.
+
