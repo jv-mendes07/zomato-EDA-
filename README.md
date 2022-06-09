@@ -302,11 +302,18 @@ Para finalizarmos, plotamos um gráfico de violino para representar a distribui�
 
 Os restaurantes mais baratos de Bangalore apresentam um custo de 50 rupees (3 reais na moeda nacional).
 
-25% dos restaurantes em Bangalore custam abaixo de 150 rupees (9 reais), 50% dos restaurantes custam abaixo de 250 rupees (15 reais), já 75% dos restaurantes custam abaixo de 350 rupees (22 reais).
+* Quartis:
 
-Os restaurantes apresentam uma dispersão de 145 rupees (9 reais) em relação à média do custo dos restaurantes que é de 268 rupees (16 reais).
+ 25% dos restaurantes em Bangalore custam abaixo de 150 rupees (9 reais), 50% dos restaurantes custam abaixo de 250 rupees (15 reais), já 75% dos restaurantes custam abaixo de 350 rupees (22 reais).
+
+* Desvio-Padrão:
+
+ Os restaurantes apresentam uma dispersão de 145 rupees (9 reais) em relação à média do custo dos restaurantes que é de 268 rupees (16 reais).
 
 Já os restaurantes mais custosos de Bangalore apresentam um custo entre 6000 (378 reais) e 22000 rupees (1.386 reais).
 
 Em suma, há como afirmarmos que em geral (sem contar os restaurantes mais caros) os restaurantes de Bangalore apresentam um preço razoável com base na precificação convertida para reais. 
 
+Sinteticamente, essa documentação apresentada foi resultado de uma análise exploratória do conjunto de dados do aplicativo Zomato em relação aos restaurantes comerciais de Bangalore, espero que tal análise tenha sido proveitosa e informativa sobre as culinárias peculiares e populares dos bairros indianos. 
+
+## ANÁLISE EXPLORATÓRIA FINALIZADA.
